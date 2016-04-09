@@ -1,1 +1,76 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;padding:0;margin:0;vertical-align:baseline}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600|Source+Sans+Pro:400,300,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0; font-size: 100%; font: inherit; padding: 0; margin: 0; vertical-align: baseline; }
+
+* { font-size: 16px; box-sizing: border-box; }
+
+body { font-family: "Source Sans Pro", sans-serif; max-width: 1440px; margin: 0 auto; background: #FEFEFE; box-shadow: 0px 0px 8px 1px rgba(106, 116, 123, 0.25); }
+
+a { color: #FEFEFE; text-decoration: none; }
+
+.boton { border-radius: 50px; background: #00c2ff; padding: .4em 2em; text-transform: uppercase; line-height: 3em; }
+
+hgroup { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+
+h1 { font-size: 5em; color: #5393DB; font-family: "Open Sans", sans-serif; text-transform: uppercase; }
+
+h2 { font-size: 1em; color: #367BB1; letter-spacing: 1px; max-width: 35em; padding: 0 0.5em; }
+
+h3 { font-size: 3em; font-family: "Open Sans", sans-serif; font-weight: 600; }
+
+nav { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: fixed; width: 100%; padding: 0 5%; max-width: 1440px; z-index: 1; background: rgba(255, 255, 255, 0.9); }
+
+nav .menu-logo { background-image: url("../img/logo-pq.png"); width: 50px; height: 50px; margin-right: 35vw; }
+
+nav .menu-logo::after { content: "OSMOFIL"; position: relative; left: 60px; top: 30%; color: #5393DB; font-weight: bold; }
+
+nav input { display: none; }
+
+nav ul { width: 100%; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; list-style: none; }
+
+nav li a { text-transform: uppercase; font-size: 0.8em; color: #222; font-family: "Open Sans", sans-serif; }
+
+section:nth-child(2) { width: 100%; height: 90vh; background: #9FD8E9; }
+
+section:nth-child(2) article { height: 100%; text-align: center; position: relative; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+article#video { height: 625px; box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+article#video .youtube { max-width: 1000px; max-height: 563px; margin: 2em auto; }
+
+article#pro1 { height: 600px; background: #F3F3F3; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-items: center; -ms-flex-align: center; align-items: center; border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6; }
+
+article#pro1 figure { width: 50%; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+article#pro1 figure img { margin: 2em auto; width: 80%; height: 100%; }
+
+article#pro1 .nota { width: 50%; text-align: justify; }
+
+article#pro1 .nota h3 { color: #36B189; }
+
+article#pro1 .nota p { font-size: .9em; color: #6a747b; padding-right: 2em; }
+
+article#pro2 { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
+
+article#pro2 .pro-n, article#pro2 .pro-r { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; width: 100%; height: 300px; }
+
+article#pro2 .pro-n .nota-n, article#pro2 .pro-r .nota-n { background: #25468B; }
+
+article#pro2 .pro-n .nota-r, article#pro2 .pro-r .nota-r { background: #43BCCF; }
+
+article#pro2 .pro-n .nota-n, article#pro2 .pro-n .nota-r, article#pro2 .pro-r .nota-n, article#pro2 .pro-r .nota-r { font-size: .9em; color: #FEFEFE; padding: 0 6em 0; width: 50%; height: 100%; text-align: justify; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; }
+
+article#pro2 .pro-n figure, article#pro2 .pro-r figure { width: 50%; background: #FEFEFE; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+article#pro2 .pro-n figure img, article#pro2 .pro-r figure img { margin: 2em auto; width: 50%; height: 100%; }
+
+article#bene { height: 600px; background-color: #FEFEFE; background-image: url("../img/mujer-agua.png"); background-position: top right; background-repeat: no-repeat; background-size: cover; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; }
+
+article#bene ol { margin: auto 10%; position: relative; counter-reset: item; list-style: none; }
+
+article#bene ol li { font-size: 2em; font-family: "Open Sans", sans-serif; font-weight: 600; color: #5393DB; cursor: pointer; }
+
+article#bene ol li:before { display: inline-block; content: counter(item) " "; counter-increment: item; background-color: #5393DB; border-radius: 50%; color: #FEFEFE; padding: 0px .4em; margin-right: .4em; }
+
+article#bene ol p { margin-bottom: 1em; color: #6a747b; padding: .5em; }
+
+footer { height: 200px; background: #43BCCF; }
