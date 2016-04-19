@@ -1,3 +1,4 @@
+@import url(fonts.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600|Source+Sans+Pro:400,300,700|Montserrat:400,700;);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0; font-size: 100%; font: inherit; padding: 0; margin: 0; vertical-align: baseline; }
 
@@ -196,7 +197,7 @@ footer .footer-contenedor .footer-lista ul .sociales a { margin-right: 1.3em; }
   article#rubros ul > li { width: 100%; }
   article#pro1 { -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   article#pro1 figure, article#pro1 .nota { width: 100%; }
-  article#pro1 .nota { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 0 2em; }
+  article#pro1 .nota { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 0 0.8em; }
   article#pro1 .nota p { margin-bottom: 1em; }
   article#pro1 .nota .boton { padding: .5em 2em; line-height: normal; }
   article#pro2 [class*="pro-"] { -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-align-items: center; -ms-flex-align: center; align-items: center; height: auto; }
