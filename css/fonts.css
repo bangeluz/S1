@@ -47,3 +47,6 @@
 .icon-instagram:before {
   content: "\69";
 }
+.icon-menu:before {
+  content: "\62";
+}
