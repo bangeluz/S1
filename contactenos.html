@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Osmofil | Contacto</title>
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results."/>
+    <meta name="keywords" content="filtros, agua, pureza, limpio, libre"/>
+  </head>
+  <body id="contactenos">
+    <nav id="menu">
+      <div class="menu-contenedor"><a href="#">
+          <div id="menu-logo"></div></a>
+        <h1>Osmofil</h1>
+      </div>
+      <input type="checkbox" id="menu-bar"/>
+      <label for="menu-bar" class="icon-menu"></label>
+      <ul>
+        <li> <a href="index.html">Inicio</a></li>
+        <li> <a href="productos.html">Productos</a></li>
+        <li> <a href="filtracion.html">Filtración</a></li>
+        <li> <a href="empresa.html">Nuestra Empresa</a></li>
+        <li> <a href="contactenos.html">Contáctenos</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article id="inicio">
+        <div class="logo-contenedor"><img src="img/logo-pq.svg" alt="Osmofil"/>
+          <div class="slogan">
+            <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</h2>
+          </div>
+          <div class="botones"><a href="empresa.html" class="boton-cta">Conocer Más</a><a href="productos.html" class="boton-cta">Ver Productos</a></div>
+        </div>
+      </article>
+    </section>
+    <section id="formulario">
+      <h3>Información de Contacto</h3>
+      <p>Estaremos encantados de atenderte, trabajamos en horario de oficina para tú comodidad. </br> Puedes contactarnos de la siguiente manera:</p>
+      <ul>
+        <li class="icon-menu">+58 212 0000000</li>
+        <li class="icon-menu">osmofil@contacto.com</li>
+        <li class="icon-menu">Plaza Altamira, Caracas, Venezuela</li>
+      </ul>
+      <hr/>
+      <div class="content-form">
+        <form action="/php/send.php" name="send" method="post" class="formulario">
+          <div class="linea">
+            <div class="input-group">
+              <label for="nombre" class="label">Nombre o Empresa</label>
+              <input id="nombre" type="text" name="nombre"/>
+            </div>
+            <div class="input-group">
+              <label for="tel" class="label">Teléfono de contacto</label>
+              <input id="tel" type="text" name="tel"/>
+            </div>
+          </div>
+          <div class="linea">
+            <div class="input-group">
+              <label for="email" class="label">Correo Electronico</label>
+              <input id="email" type="email" name="email"/>
+            </div>
+          </div>
+          <div class="linea">
+            <div class="input-group">
+              <label for="message" class="label">Mensaje</label>
+              <textarea id="message" name="message" wrap="hard"></textarea>
+              <input type="submit" value="Enviar mensaje" class="boton"/>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-contenedor">
+        <div class="footer-logo"></div>
+        <div class="footer-lista">
+          <ul>
+            <li>
+              <h4>Productos</h4>
+              <ul>
+                <li><a href="">Stella</a></li>
+                <li><a href="">Stella</a></li>
+                <li><a href="">Stella</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4>Descubrir</h4>
+              <ul>
+                <li><a href="">¿Cómo funciona la filtración?</a></li>
+                <li><a href="">Proceso de Filtrado</a></li>
+                <li><a href="">Nuestro Producto</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4>Soporte</h4>
+              <ul>
+                <li><a href="">Contáctenos</a></li>
+                <li><a href="">0212 000 00 00</a></li>
+                <li><a href="">osmofil@contacto.com</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="">Aviso Legal</a></li>
+                <li><a href="">Términos y Condiciones</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4>Síguenos</h4>
+              <div class="sociales"><a href="" class="icon-facebook"></a><a href="" class="icon-twitter"></a><a href="" class="icon-instagram"></a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
