@@ -50,3 +50,12 @@
 .icon-menu:before {
   content: "\62";
 }
+.icon-phone:before {
+  content: "\61";
+}
+.icon-mail:before {
+  content: "\63";
+}
+.icon-map:before {
+  content: "\64";
+}

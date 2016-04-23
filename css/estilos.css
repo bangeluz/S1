@@ -177,7 +177,7 @@ section#formulario ul { display: -webkit-flex; display: -ms-flexbox; display: fl
 
 section#formulario ul li { width: 200px; text-align: left; position: relative; margin-left: 4em; color: #222; padding: .5em 0; }
 
-section#formulario ul li:before { position: absolute; left: -1.5em; font-size: 1.5em; color: #367BB1; }
+section#formulario ul li:before { position: absolute; left: -1.5em; font-size: 1.8em; color: #367BB1; }
 
 section#formulario .content-form { margin: auto; min-width: 500px; text-align: left; }
 
