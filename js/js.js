@@ -11,4 +11,4 @@ $(document).ready (function() {
 			logo.classList.remove('menu-logo-v');
 		}
 	})
-})
+});
