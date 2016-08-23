@@ -1,0 +1,63 @@
+@import url(fonts-slide.css);
+article {
+  width: 90%;
+}
+
+.slides {
+  width: 100%;
+}
+
+.slides img {
+  width: 100%;
+}
+
+.slidesjs-pagination {
+  list-style: none;
+  overflow: hidden;
+  padding: 0px !important;
+  box-sizing: border-box;
+  margin: 0;
+  float: right;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  list-style: none !important;
+  width: auto !important;
+}
+
+.slidesjs-pagination li a {
+  display: inline-block;
+  padding: 5.5px 20px;
+  color: #F3F3F3 !important;
+  text-decoration: none;
+  transition: .1s;
+  height: 40px;
+}
+
+.slidesjs-pagination li a:hover {
+  background: rgba(0, 0, 0, 0.6);
+  text-decoration: none !important;
+}
+
+.slides .active {
+  background: #25468B;
+}
+
+.slidesjs-navigation {
+  background: #25468B;
+  color: #F3F3F3 !important;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  float: left;
+}
+
+.slidesjs-navigation:hover {
+  background: rgba(0, 0, 0, 0.6);
+  text-decoration: none !important;
+}
+
+.slides {
+  background: #367BB1;
+}
