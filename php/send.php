@@ -1,5 +1,5 @@
 <?php
-  $destino = "brianmarriaga@gmail.com";
+  $destino = "info@osmofil.com";
   $nombre = $_POST["nombre"];
   $numero = $_POST["tel"];
   $email = $_POST["email"];

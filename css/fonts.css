@@ -3,7 +3,7 @@
 @font-face {
   font-family: "osmofil";
   src:url("../fonts/osmofil.eot");
-  src:url("../fonts/osmofil.eot?#iefix") format("embedded-opentype"),
+  src:url("fonts/osmofil.eot?#iefix") format("embedded-opentype"),
     url("../fonts/osmofil.woff") format("woff"),
     url("../fonts/osmofil.ttf") format("truetype"),
     url("../fonts/osmofil.svg#osmofil") format("svg");
@@ -44,9 +44,6 @@
 .icon-twitter:before {
   content: "\74";
 }
-.icon-instagram:before {
-  content: "\69";
-}
 .icon-menu:before {
   content: "\62";
 }
@@ -70,4 +67,10 @@
 }
 .icon-backward:before {
   content: "\6a";
+}
+.icon-pinterest:before {
+  content: "\6b";
+}
+.icon-instagram:before {
+  content: "\6c";
 }

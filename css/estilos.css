@@ -193,6 +193,10 @@ section#formulario { margin: 2em; display: -webkit-flex; display: -ms-flexbox; d
 
 section#formulario h3 { color: #367BB1; margin: 0 0 .5em; }
 
+section#formulario figure { width: 60%; max-width: 400px; }
+
+section#formulario figure img { width: 100%; }
+
 section#formulario p { color: #6a747b; margin: 0 0 1.5em; text-align: center; }
 
 section#formulario ul { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; width: 85%; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
@@ -318,4 +322,5 @@ footer .footer-contenedor .footer-lista ul .sociales a:hover { color: #43BCCF; }
   section#info .info-contenido article { padding: 0; }
   section#mapa { position: relative; }
   section#mapa:before { content: ""; position: absolute; background: transparent; width: 100%; height: 100%; top: 0; left: 0; z-index: 1; }
-  section#formulario .content-form { min-width: auto; } }
+  section#formulario .content-form { min-width: auto; }
+  section#formulario ul li a.icon-map { width: auto; } }
