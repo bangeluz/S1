@@ -67,7 +67,7 @@ article#video h3 { font-size: 2em; color: #367BB1; margin: 0 0 .5em; }
 
 article#video p { font-size: .9em; color: #6a747b; width: 50%; margin: 0 0 1.5em; text-align: center; }
 
-article#video .video-contenedor { width: 100%; height: 100%; max-width: 1000px; max-height: 563px; margin-bottom: 1.5em; padding: 0 1em; }
+article#video .video-contenedor { width: 100%; max-width: 1000px; max-height: 563px; margin-bottom: 1.5em; padding: 0 1em; }
 
 article#rubros { min-height: 400px; background: #25468B; display: -webkit-flex; display: -ms-flexbox; display: flex; overflow: hidden; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
@@ -229,6 +229,16 @@ section#formulario .content-form .linea .input-group .boton:focus { background: 
 
 section#formulario .content-form .linea .input-group .boton:active { box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 2px inset; }
 
+section#gracias { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 100vw; height: 100vh; }
+
+section#gracias figure { width: 500px; }
+
+section#gracias h4 { color: #333; }
+
+section#gracias h4 a { color: #25468B; }
+
+section#gracias h4 a:hover { text-decoration: underline; }
+
 footer { height: 200px; background: #25468B; display: -webkit-flex; display: -ms-flexbox; display: flex; padding: 0 5em; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 footer .footer-contenedor { display: -webkit-flex; display: -ms-flexbox; display: flex; margin: auto; width: 100%; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
@@ -269,7 +279,7 @@ footer .footer-contenedor .footer-lista ul .sociales a:hover { color: #43BCCF; }
   article#video p { width: 80%; }
   article#pro2 [class*="pro-"] { height: 400px; }
   article#pro2 [class*="pro-"] [class*="nota-"] { padding: 0 3em; }
-  article#bene { -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+  article#bene { -webkit-align-items: center; -ms-flex-align: center; align-items: center; background-position: top; }
   article#bene h3 { text-align: center; }
   section#info { -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   section#info aside, section#info .info-contenido { width: 100%; }
